@@ -12,10 +12,10 @@
                 <div class="item" v-for="(item, i) in faq" :key="i">
                     <h2 v-on:click="toggle(item, $event)" :class="{open : item.open}" class="item__header">
                         <span>
-                            <i :class="item.icon"></i>
+                          <img :src="require('./../assets/img/icons/' + item.icon +'')" />
                             {{item.header}}
                         </span>
-                        <i :class="{rotate: item.open}" class="fas fa-angle-down v-arrow"></i>
+                        <img :class="{rotate: item.open}" class="item__header-rot" :src="require('./../assets/img/icons/arrow2.svg')" />
                     </h2>
                     <transition name="faq-animation"  enter-active-class="animated fadeInLeft"
                                 leave-active-class="animated fadeOutLeft">
@@ -36,7 +36,7 @@
                 faq: [
                     {
                         header: 'Kokios svetainės man reikia?',
-                        icon: 'fas fa-at v-icon',
+                        icon: 'at.svg',
                         content: `<span class="medium">Reprezentacinė svetainė</span> – išsamiai pristato Tavo verslą internete. Dažniausiai pasitaikanti svetainės struktūra: įmonės informacija, paslaugų sąrašas su išsamiu aprašymu, paslaugų kainininkas, atlikti darbai (foto galerija), kontaktinė informacija. Dažniausiai svetainę sudaro 5 puslapiai.
                         <br>
                         <span class="medium">Vieno puslapio svetainė</span> – trumpai pristato pagrindinę Tavo įmonės/veiklos/įdėjos informaciją bei paslaugas arba produktus viename puslapyje.
@@ -48,7 +48,7 @@
                     },
                     {
                         header: 'Kas yra domenas?',
-                        icon: 'fas fa-wifi v-icon',
+                        icon: 'domain.svg',
                         content: `<span class="medium">Domenas</span> – Tavo svetainės pavadinimas/adresas (pvz.: www.manosvetaine.lt). Domenas turi būti trumpas, aiškus ir lengvai įsimintinas. Jei įmonės pavadinimas yra unikalus (pvz.: dviejų vardų junginys), tai didelė tikimybė, kad domenas bus laisvas ir galėsi jį nusipirkti. Kitu atveju tenka pasitelkti vaizduotę, nes visi standartiniai ar populiarūs žodžiai/žodžių junginiai yra jau išpirkti. Kaip išsirinkti/sugalvoti gerą domeną, plačiau gali paskaityti
                         <a target="_blank" href="https://www.seopaslaptys.lt/seo-optimizacija/kaip-pasirinkti-domena.php">čia</a>. Patikrinti, ar domenas laisvas gali
                         <a target="_blank" href="https://www.domenai.lt/">čia</a>. Keli variantai, kur galima nusipirkti domeną: <a target="_blank" href="https://www.serveriai.lt/">serveriai.lt</a>,
@@ -57,27 +57,27 @@
                     },
                     {
                         header: 'Kas yra svetainės talpinimas?',
-                        icon: 'fas fa-home v-icon',
+                        icon: 'house.svg',
                         content: `Neužtenka turėti tik gyvenamosios vietos adresą (domeną), reikia turėti ir pačią vietą <span class="medium">(talpinimą serveryje)</span>, kur galima statyti namą (svetainę). Taigi, talpinimas serveryje ir yra vieta, kur gulės pati svetainė. Kaip ir domenas, talpinimas serveryje yra privalomas dalykas, tam kad turėtum svetainę. Štai keli variantai, kur galima talpinti svetainę:  <a href="https://www.serveriai.lt/">serveriai.lt</a>,
                         <a target="_blank" href="https://www.domenai.lt/">domenai.lt</a>, <a target="_blank" href="https://www.hostinger.lt/"> hostinger.lt</a>.`,
                         open: false
                     },
                     {
                         header: 'Kas yra WordPress?',
-                        icon: 'fab fa-wordpress v-icon',
+                        icon: 'wp.svg',
                         content: `Užduok sau klausimą: ar man užtenka vieną kartą sudėti visą norimą informacija (įmonės aprašymą, paslaugų/prekių aprašymus, kontaktus ir nuotraukas), ar aš noriu bet kada koreguoti turinį (trinti, keisti, pridėti informaciją, pridėti naujus puslapius)? Norint bet kada koreguoti turinį, svetainė turi būti padaryta 'ant turinio valdymo sistemos'. Pati populiariausia TVS skirta svetainėms yra <span class="medium">WordPress</span>. Būtent šią platformą ir naudoju beveik visoms savo sukurtoms svetainėms. Kodėl verta rinktis WordPress, rasi
                         <a target="_blank" href="https://www.youtube.com/watch?v=1QdQ-QCio9A">čia</a>. Kaip naudotis, rasi <a target="_blank" href="https://www.youtube.com/watch?v=bWTOftSg2Ek">čia</a>. Sukūręs Tau svetainę, parodysiu kaip naudotis WordPress. Redaguoti informaciją WordPress'e  yra paprasta ir subegės KIEKVIENAS. Jei kažkas neišeis, visada padėsiu.`,
                         open: false
                     },
                     {
                         header: 'Logotipas',
-                        icon: 'fas fa-apple-alt v-icon',
+                        icon: 'apple.svg',
                         content: `<span class="medium">Logotipas</span> – svarbiausias įmonės identiteto elementas, kurio pagrindinis tikslas išsiskirti iš konkurentų ir kurti vartotojo sąmonėje įsimenantį įvaizdį. Jeigu neturi logotipo - ne bėda. Žinau kelis profesionalius grafikos dizainerius, kurie gali sukurti išskirtinį logotipą būtent Tavo įmonei ar įdėjai. Profesionalaus logotipo kaina rinkoje svyruoja nuo 150-400 eu. Ne visi nori tiek pinigų išleisti logotipui, ypač tik pradedant kurti verslą. Tokiu atveju pažįstu kelis studentus, kurie apsiimtu sukurti nesudėtingą, bet kokybišką ir unikalų logotipą už 30-70 eu. Abiem atvejais, gausi vektorinį logotipą, kas reiškia, kad galėsi jį panaudoti ne tik svetainėje, bet ir  vizitinėje kortelėje, atsispausdinti ant marškinėlių, mašinos ar bet kur kitur. Kokybė visada išliks ideali ir logotipas 'neišsipikseliuos'. `,
                         open: false
                     },
                     {
                         header: 'Dizainas',
-                        icon: 'fas fa-palette',
+                        icon: 'design.svg',
                         content: `Jeigu nori, kad svetainė būtų ne tik tvarkinga, bet ir iš karto patraukianti akį bei išskirtinė, Tau reikia svetainės dizaino. Išanalizavę Tavo veiklą ir poreikius, svetainių dizainus kuria grafikos dizaineriai. Kelis variantus kaip atrodo svetainių dizainai, gali pamatyti
                         <a target="_blank" href="https://onextrapixel.com/50-unique-and-inspiring-website-designs/">čia</a>. Dizaineris  parenka spalvas, šriftus, atstumus tarp elementų, jei reikia  nupiešia ikonas, iliustracijas. Tada sulygiuoja visą svetainės vaizdą tam, kad tiktų ir kompiuteriams, ir planšetėms, ir telefonams (kadangi visi šie įrenginiai turi skirtingą rezoliuciją ir ant kiekvieno iš jų svetainė atrodo kitaip). Turint dizainą, programuotojas paima padarytą paveiksliuką (dizainą) ir sukuria iš jo svetainę, už tai mokama papildoma kaina. Dizainas gali būti labai paprastas ir minimalistinis arba labai sudėtingas ir išsiskiriantis iš kitų svetainių, todėl dizaino kaina priklauso nuo Tavo poreikių. Šiuo metu kainos svyruoja nuo 100-2000 eu. Ne visi nori tiek pinigų išleisti dizainui, ypač tik pradedant kurti verslą. Internete yra pilna jau padarytų dizaino variantų, kurie jau yra 'užmauti' ant WordPress'o. Kelis nemokamus variantus gali rasti
                         <a target="_blank" href="https://athemes.com/collections/free-wordpress-themes/">čia</a>. Kelis mokamus variantus gali rasti
@@ -88,7 +88,7 @@
                     },
                     {
                         header: 'Lankytojų srautas',
-                        icon: 'far fa-money-bill-alt',
+                        icon: 'coin.svg',
                         content: `Neužtenka vien tik turėti svetainę, reikia, kad joje lankytųsi būtent ta tikslinė žmonių grupė, kuriai Tavo produktai ar paslaugos būtų įdomios ir aktualios. Dažniausiai lankytojų srauto valdymu užsiima šios srities specialistas. Jeigu Tau tai bus aktualu, galėsiu parekomenduoti tokį žmogų. Pagrindiniai būdai, <span class="medium">kaip pritraukti žmones į svetainę:</span>
                         <br>
                         <span class="medium"> SEO (Search Engine Optimization) </span>– tai optimizavimas paieškos sistemoms. Kai žmogus, suvedęs tam tikrą žodį ar frazę google paieškos sistemoje, iškart pamato Tavo svetainę - Tavo svetainės SEO yra puikiai suoptimizuotas. Vidinį svetainės SEO optimizavimą alieku aš. Plačiau apie tai, kas yra SEO ir kaip tai veikia, gali rasti

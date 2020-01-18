@@ -5,17 +5,21 @@
                 <img :src="require('./../assets/img/icons/euro.svg')" />
                 Kainos skaičiuoklė
             </h1>
+            <div class="calc__price calc__price-top">Apytikslė kaina <span class="calc__price-number">{{totalPrice}}</span> eu.</div>
             <div class="calc__table" ref="answers">
-                <div v-for="(column, i) in row" class="calc__row" :key="i">
-                    <div class="calc__column calc__column--main">
-                        {{column.question}}
-                    </div>
-                    <div v-for="(item, index) in column.answers" @click="calculate(item, column)" class="calc__column" :key="index" :class="{active: item.active}">
-                        {{item.name}}
-                    </div>
-                </div>
+               <div v-for="(column, i) in row" :key="i">
+                   <div class="calc__row">
+                       <div class="calc__column calc__column--main">
+                           {{column.question}}
+                       </div>
+                       <div v-for="(item, index) in column.answers" @click="calculate(item, column)" class="calc__column" :key="index" :class="{active: item.active}">
+                           {{item.name}}
+                       </div>
+                   </div>
+                   <div v-if="i !== 3" class="calc__plus">+</div>
+               </div>
             </div>
-            <div class="calc__price">Kaina nuo <span class="calc__price-number">{{totalPrice}}</span> eu.</div>
+            <div class="calc__price">Apytikslė kaina <span class="calc__price-number">{{totalPrice}}</span> eu.</div>
         </div>
     </section>
 </template>

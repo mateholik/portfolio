@@ -7,7 +7,29 @@
 @import 'calc';
 @import 'paslaugos';
 
-
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  @include mQ(768px) {
+    display: none;
+  }
+  &-bottom {
+    display: none;
+    @include mQ(768px) {
+      display: block;
+      position: static;
+      color: black;
+      margin: 0;
+      margin-top: 4rem;
+    }
+  }
+}
 
 .router-animation-enter-active, .router-animation-leave-active {
   transition: opacity 0.3s ease-in-out, transform 0.3s ease;

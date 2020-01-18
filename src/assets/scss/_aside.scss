@@ -126,14 +126,13 @@
       padding: 0 2rem;
       display: none;
       @include mQ(768px) {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
       &-btn {
-        //width: 50%;
-        display: inline-block;
-        i {
-          color: rgba($aside-text-color, 0.6);
-        }
+        width: 2rem;
+        display: block;
       }
     }
   }
@@ -169,13 +168,18 @@
     }
     &__ul {
       @include mQ(768px) {
-        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
       }
     }
     &__li {
       display: block;
-      margin-bottom: 1rem;
       transition: all .1s ease-in-out;
+      margin-bottom: 1rem;
+      @include mQ(768px) {
+        margin-bottom: 0;
+      }
       &--mobile {
         display: inline-block;
         span {
@@ -184,8 +188,11 @@
       }
       &:hover {
         transform: scale(1.01);
-        a, i {
+        a {
           color: $aside-text-color;
+        }
+        svg, path {
+          fill: $aside-text-color;
         }
       }
     }
@@ -193,9 +200,11 @@
       color: rgba($aside-text-color, 0.6);
       display: flex;
       align-items: center;
-      i {
-        color: rgba($aside-text-color, 0.6);
-        font-size: 2rem;
+      svg, path {
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+        fill: hsla(0,0%,100%,.6);
       }
     }
   }

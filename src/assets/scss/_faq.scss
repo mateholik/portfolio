@@ -25,13 +25,13 @@
       &:hover {
         background: #f6f6f6;
       }
-      i {
-        font-size: 3rem;
-        transition: all .3s
+      &-rot {
+        margin-right: 0;
       }
-      span i {
-        font-size: 2rem;
-      }
+     img {
+       position: static;
+       transition: all .3s;
+     }
     }
     &__content {
       margin: 2rem 1rem;
