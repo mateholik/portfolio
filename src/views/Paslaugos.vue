@@ -11,7 +11,7 @@
             <h2 class="paslaugos__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Karpau dizainus - PSD, sketch, Figma -> HTML. Pixel perfect.</h2>
             <h2 class="paslaugos__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />WordPress, WooCommerce temų ir pluginų rašymas.</h2>
             <h2 class="paslaugos__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Dirbu su  landeriais, formomis, validacijomis, checkout'ais.</h2>
-            <h2 class="paslaugos__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Dirbu su with HTML, CSS, SASS/BEM, Bootstrap, Tailwind, JS, jQuery, VUE, NUXT PHP, Twig, GULP, Webpack.</h2>
+            <h2 class="paslaugos__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Dirbu su with HTML, CSS, SASS/BEM, Bootstrap, Tailwind, JS, jQuery, VUE, NUXT, PHP, Twig, GULP, Webpack, GIT, Docker</h2>
         </div>
     </section>
 </template>

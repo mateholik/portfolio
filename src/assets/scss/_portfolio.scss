@@ -21,6 +21,12 @@
     border-radius: 0.2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
+    &-ortakiai {
+      background-image: url('./../img/ortakiai.jpg');
+    }
+    &-mate {
+      background-image: url('./../img/mate.jpg');
+    }
     &-lubos {
       background-image: url('./../img/lubos.jpg');
     }
