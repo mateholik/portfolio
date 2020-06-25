@@ -78,3 +78,19 @@
   overflow: hidden;
   max-height: 0;
 }
+
+
+.hint-enter-active, .hint-leave-active {
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease;
+}
+.hint-enter-active {
+  transition-delay: 0.2s;
+}
+.hint-enter, .hint-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.hint-enter-to, .hint-leave {
+  opacity: 1;
+  transform: translateY(0px);
+}

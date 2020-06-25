@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@inotom/vue-go-top": "^1.2.0",
+    "animated-number-vue": "^1.0.0",
     "core-js": "^3.4.4",
     "sass": "^1.24.4",
     "sass-loader": "^8.0.2",
@@ -16,13 +17,17 @@
     "vue-router": "^3.1.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.1.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.43.0"
   },
   "eslintConfig": {
     "root": true,

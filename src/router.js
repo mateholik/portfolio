@@ -16,13 +16,13 @@ export default new Router ({
         component: Portfolio,
     },
     {
-        path: '/faq',
-        name: 'faq',
+        path: '/duk',
+        name: 'duk',
         component: FAQ,
     },
     {
-        path: '/calc',
-        name: 'calc',
+        path: '/kaina',
+        name: 'kaina',
         component: Calc,
     },
     {

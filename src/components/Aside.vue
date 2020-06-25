@@ -51,15 +51,15 @@
                         <ul class="nav__ul--desktop">
                             <router-link to="/paslaugos" tag="li" class="nav__li" exact @click.native="mobileNav = false">Paslaugos</router-link>
                             <router-link to="/" tag="li" class="nav__li" exact @click.native="mobileNav = false">Portfolio</router-link>
-                            <router-link to="/faq" tag="li" class="nav__li" exact @click.native="mobileNav = false">D.U.K.</router-link>
-                            <router-link to="/calc" tag="li" class="nav__li" exact @click.native="mobileNav = false">Kaina</router-link>
+                            <router-link to="/duk" tag="li" class="nav__li" exact @click.native="mobileNav = false">D.U.K.</router-link>
+                            <router-link to="/kaina" tag="li" class="nav__li" exact @click.native="mobileNav = false">Kaina</router-link>
                         </ul>
                         <Transition name="slide-menu" mode="out-in" >
                             <ul class="nav__ul" v-if="mobileNav">
                                 <router-link to="/paslaugos" tag="li" class="nav__li" exact @click.native="mobileNav = false">Paslaugos</router-link>
                                 <router-link to="/" tag="li" class="nav__li" exact @click.native="mobileNav = false">Portfolio</router-link>
-                                <router-link to="/faq" tag="li" class="nav__li" exact @click.native="mobileNav = false">D.U.K.</router-link>
-                                <router-link to="/calc" tag="li" class="nav__li" exact @click.native="mobileNav = false">Kaina</router-link>
+                                <router-link to="/duk" tag="li" class="nav__li" exact @click.native="mobileNav = false">D.U.K.</router-link>
+                                <router-link to="/kaina" tag="li" class="nav__li" exact @click.native="mobileNav = false">Kaina</router-link>
                             </ul>
                         </transition>
                      </div>

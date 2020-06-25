@@ -23,7 +23,7 @@
       transition:background-color .1s linear;
       margin-bottom: 0;
       &:hover {
-        background: #f6f6f6;
+        background: #f5e4d8c2;
       }
       &-rot {
         margin-right: 0;
@@ -36,7 +36,7 @@
     &__content {
       margin: 2rem 1rem;
       padding: 1rem;
-      background: #dfe3e640;
+      background: #d9e8f761;
       animation-duration: 0.2s;
       animation-delay: 0.2s;
     }
@@ -44,7 +44,7 @@
       transform: rotate(180deg);
     }
     .open {
-      background: #e4dfdf;
+      background: #f5e4d8;
     }
   }
 }

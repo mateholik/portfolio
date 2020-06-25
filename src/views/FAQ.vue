@@ -3,7 +3,10 @@
         <div class="faq">
             <div class="faq__header">
                 <h1>Kiek kainuoja sukurti svetainę?</h1>
-                <p>Šį klausimą man užduoda kiekvienas dėl svetainės parašęs žmogus. Nenuostabu, kad šis klausimas yra pats pirmas, aktualiausias ir daug ką lemiantis. Žinant tikslią kainą, lengviau galima pasverti savo galimybes, planuoti ir apsispręsti. Visgi, klausti programuotojo 'kiek kainuoja sukurti svetainę?' yra tas pats, kas atėjus į automobilių saloną paklausti 'kiek kainuoja automobilis?' Tam, kad suprastum, kaip atrodo kokybiškas ir patrauklus tinklalapis bei sužinotum atsakymus į dažniausiai klientų užduodamus klausimus, padariau trumpą atmintinę. Išnagrinėjus šią informaciją, tiksliai sužinosi kokios svetainės reikia būtent Tau bei kiek kainuos ją sukurti.</p>
+                <p>Šį klausimą užduoda kiekvienas dėl svetainės kreipęsis žmogus. Nenuostabu, kad šis klausimas dažnai yra aktualiausias ir daug ką lemiantis. Žinant tikslią kainą, lengviau galima įsivertinti savo galimybes, planuoti tolimesnius žingsnius bei priimti sprendimus. Vis dėlto, klausti programuotojo „kiek kainuoja sukurti svetainę?“ yra tas pats, kas atėjus į automobilių saloną klausti „kiek kainuoja automobilis?“.
+                    <br><br>
+                    Siekiant palengvinti paiešką ir padėti suprasti kaip atrodo kokybiška bei patraukli svetainė, žemiau pateikiu atsakymus į dažniausiai užduodamus klausimus bei trumpą atmintinę.
+                    Perskaičius šią informaciją bus kur kas lengviau suprasti kokios svetainės reikia tau ir kiek kainuos ją sukurti.</p>
             </div>
             <h1><img :src="require('./../assets/img/icons/question.svg')" />D.U.K.</h1>
             <div class="faq__inner">
@@ -24,6 +27,10 @@
                 </div>
 
             </div>
+            Dabar, kai jau žinai kokios svetainės tau reikia, gali pasinaudoti skaičiuokle ir sužinoti kiek maždaug gali kainuoti tavo svetainė.
+            <br> Skaičiuoklę rasi <router-link to="/kaina">čia</router-link>.
+
+            <br><br><br>
         </div>
     </section>
 </template>
@@ -58,32 +65,32 @@
                     {
                         header: 'Kas yra svetainės talpinimas?',
                         icon: 'house.svg',
-                        content: `Neužtenka turėti tik gyvenamosios vietos adresą (domeną), reikia turėti ir pačią vietą <span class="medium">(talpinimą serveryje)</span>, kur galima statyti namą (svetainę). Taigi, talpinimas serveryje ir yra vieta, kur gulės pati svetainė. Kaip ir domenas, talpinimas serveryje yra privalomas dalykas, tam kad turėtum svetainę. Štai keli variantai, kur galima talpinti svetainę:  <a href="https://www.serveriai.lt/">serveriai.lt</a>,
+                        content: `Neužtenka turėti tik gyvenamosios vietos adreso (domeno), reikia turėti ir pačią vietą <span class="medium">(talpinimą serveryje)</span>, kur galima statyti namą (svetainę). Taigi, talpinimas serveryje ir yra vieta, kur gulės pati svetainė. Kaip ir domenas, talpinimas serveryje yra privalomas dalykas, tam kad turėtum svetainę. Štai keli variantai, kur galima talpinti svetainę:  <a href="https://www.serveriai.lt/">serveriai.lt</a>,
                         <a target="_blank" href="https://www.domenai.lt/">domenai.lt</a>, <a target="_blank" href="https://www.hostinger.lt/"> hostinger.lt</a>.`,
                         open: false
                     },
                     {
                         header: 'Kas yra WordPress?',
                         icon: 'wp.svg',
-                        content: `Užduok sau klausimą: ar man užtenka vieną kartą sudėti visą norimą informacija (įmonės aprašymą, paslaugų/prekių aprašymus, kontaktus ir nuotraukas), ar aš noriu bet kada koreguoti turinį (trinti, keisti, pridėti informaciją, pridėti naujus puslapius)? Norint bet kada koreguoti turinį, svetainė turi būti padaryta 'ant turinio valdymo sistemos'. Pati populiariausia TVS skirta svetainėms yra <span class="medium">WordPress</span>. Būtent šią platformą ir naudoju beveik visoms savo sukurtoms svetainėms. Kodėl verta rinktis WordPress, rasi
-                        <a target="_blank" href="https://www.youtube.com/watch?v=1QdQ-QCio9A">čia</a>. Kaip naudotis, rasi <a target="_blank" href="https://www.youtube.com/watch?v=bWTOftSg2Ek">čia</a>. Sukūręs Tau svetainę, parodysiu kaip naudotis WordPress. Redaguoti informaciją WordPress'e  yra paprasta ir subegės KIEKVIENAS. Jei kažkas neišeis, visada padėsiu.`,
+                        content: `Užduok sau klausimą: ar man užtenka vieną kartą sudėti visą norimą informacija (įmonės aprašymą, paslaugų/prekių aprašymus, kontaktus ir nuotraukas), ar aš noriu bet kada koreguoti turinį (trinti, keisti, pridėti informaciją, pridėti naujus puslapius)? Norint bet kada koreguoti turinį, svetainė turi būti padaryta „ant turinio valdymo sistemos“. Pati populiariausia TVS skirta svetainėms yra <span class="medium">WordPress</span>. Būtent šią platformą ir naudoju beveik visoms savo sukurtoms svetainėms. Kodėl verta rinktis WordPress, rasi
+                        <a target="_blank" href="https://www.youtube.com/watch?v=1QdQ-QCio9A">čia</a>. Kaip naudotis, rasi <a target="_blank" href="https://www.youtube.com/watch?v=bWTOftSg2Ek">čia</a>. Sukūręs Tau svetainę, parodysiu kaip naudotis WordPress. Redaguoti informaciją WordPress'e yra labai paprasta ir tą sugebės KIEKVIENAS. Jei kažkas neišeis, visada padėsiu.`,
                         open: false
                     },
                     {
                         header: 'Logotipas',
                         icon: 'apple.svg',
-                        content: `<span class="medium">Logotipas</span> – svarbiausias įmonės identiteto elementas, kurio pagrindinis tikslas išsiskirti iš konkurentų ir kurti vartotojo sąmonėje įsimenantį įvaizdį. Jeigu neturi logotipo - ne bėda. Žinau kelis profesionalius grafikos dizainerius, kurie gali sukurti išskirtinį logotipą būtent Tavo įmonei ar įdėjai. Profesionalaus logotipo kaina rinkoje svyruoja nuo 150-400 eu. Ne visi nori tiek pinigų išleisti logotipui, ypač tik pradedant kurti verslą. Tokiu atveju pažįstu kelis studentus, kurie apsiimtu sukurti nesudėtingą, bet kokybišką ir unikalų logotipą už 30-70 eu. Abiem atvejais, gausi vektorinį logotipą, kas reiškia, kad galėsi jį panaudoti ne tik svetainėje, bet ir  vizitinėje kortelėje, atsispausdinti ant marškinėlių, mašinos ar bet kur kitur. Kokybė visada išliks ideali ir logotipas 'neišsipikseliuos'. `,
+                        content: `<span class="medium">Logotipas</span> – svarbiausias įmonės identiteto elementas, kurio pagrindinis tikslas išsiskirti iš konkurentų ir kurti vartotojo sąmonėje įsimenantį įvaizdį. Jeigu neturi logotipo - ne bėda. Žinau kelis profesionalius grafikos dizainerius, kurie gali sukurti išskirtinį logotipą būtent Tavo įmonei ar įdėjai. Profesionalaus logotipo kaina rinkoje svyruoja nuo 150-400 eu. Ne visi nori tiek pinigų išleisti logotipui, ypač tik pradedant kurti verslą. Tokiu atveju pažįstu kelis studentus, kurie apsiimtu sukurti nesudėtingą, bet kokybišką ir unikalų logotipą už 30-70 eu. Abiem atvejais, gausi vektorinį logotipą, kas reiškia, kad galėsi jį panaudoti ne tik svetainėje, bet ir  vizitinėje kortelėje, atsispausdinti ant marškinėlių, mašinos ar bet kur kitur. Kokybė visada išliks ideali ir logotipas neišsipikseliuos. `,
                         open: false
                     },
                     {
                         header: 'Dizainas',
                         icon: 'design.svg',
                         content: `Jeigu nori, kad svetainė būtų ne tik tvarkinga, bet ir iš karto patraukianti akį bei išskirtinė, Tau reikia svetainės dizaino. Išanalizavę Tavo veiklą ir poreikius, svetainių dizainus kuria grafikos dizaineriai. Kelis variantus kaip atrodo svetainių dizainai, gali pamatyti
-                        <a target="_blank" href="https://onextrapixel.com/50-unique-and-inspiring-website-designs/">čia</a>. Dizaineris  parenka spalvas, šriftus, atstumus tarp elementų, jei reikia  nupiešia ikonas, iliustracijas. Tada sulygiuoja visą svetainės vaizdą tam, kad tiktų ir kompiuteriams, ir planšetėms, ir telefonams (kadangi visi šie įrenginiai turi skirtingą rezoliuciją ir ant kiekvieno iš jų svetainė atrodo kitaip). Turint dizainą, programuotojas paima padarytą paveiksliuką (dizainą) ir sukuria iš jo svetainę, už tai mokama papildoma kaina. Dizainas gali būti labai paprastas ir minimalistinis arba labai sudėtingas ir išsiskiriantis iš kitų svetainių, todėl dizaino kaina priklauso nuo Tavo poreikių. Šiuo metu kainos svyruoja nuo 100-2000 eu. Ne visi nori tiek pinigų išleisti dizainui, ypač tik pradedant kurti verslą. Internete yra pilna jau padarytų dizaino variantų, kurie jau yra 'užmauti' ant WordPress'o. Kelis nemokamus variantus gali rasti
+                        <a target="_blank" href="https://onextrapixel.com/50-unique-and-inspiring-website-designs/">čia</a>. Dizaineris  parenka spalvas, šriftus, atstumus tarp elementų, jei reikia  nupiešia ikonas, iliustracijas. Tada sulygiuoja visą svetainės vaizdą tam, kad tiktų ir kompiuteriams, ir planšetėms, ir telefonams (kadangi visi šie įrenginiai turi skirtingą rezoliuciją ir ant kiekvieno iš jų svetainė atrodo kitaip). Turint dizainą, programuotojas paima padarytą paveiksliuką (dizainą) ir sukuria iš jo svetainę, už tai mokama papildoma kaina. Dizainas gali būti labai paprastas ir minimalistinis arba labai sudėtingas ir išsiskiriantis iš kitų svetainių, todėl dizaino kaina priklauso nuo Tavo poreikių. Šiuo metu kainos svyruoja nuo 100-2000 eu. Ne visi nori tiek pinigų išleisti dizainui, ypač tik pradedant kurti verslą. Internete yra pilna jau padarytų dizaino variantų, kurie jau yra „užmauti“ ant WordPress'o. Kelis nemokamus variantus gali rasti
                         <a target="_blank" href="https://athemes.com/collections/free-wordpress-themes/">čia</a>. Kelis mokamus variantus gali rasti
-                        <a target="_blank" href="https://themeforest.net/category/wordpress?gclid=Cj0KCQjwuLPnBRDjARIsACDzGL3ew8Dp6UIpIkibfTZQo3pGg97jdiyG57BSRfLBXkKoFPJpcQ0gPBEaApqXEALw_wcB&referrer=search&sort=sales&utf8=%E2%9C%93&view=grid">čia</a>. <span class="medium">Apibendrinus</span>, perkant originalų dizainą iš dizainerio, svetainė bus unikali, išskirtinė ir greita. Perkant mokamą WordPress temą, svetainė bus pusiau unikali ir pusiau greita. Imant nemokamą temą, svetainė nebus labai unikali ir bus gana lėta.
+                        <a target="_blank" href="https://themeforest.net/category/wordpress?gclid=Cj0KCQjwuLPnBRDjARIsACDzGL3ew8Dp6UIpIkibfTZQo3pGg97jdiyG57BSRfLBXkKoFPJpcQ0gPBEaApqXEALw_wcB&referrer=search&sort=sales&utf8=%E2%9C%93&view=grid">čia</a>. <span class="medium">Apibendrinant</span>, perkant originalų dizainą iš dizainerio, svetainė bus unikali, išskirtinė ir greita. Perkant mokamą WordPress temą, svetainė bus pusiau unikali ir pusiau greita. Imant nemokamą temą, svetainė nebus labai unikali ir bus gana lėta.
                         <br>
-                        Visi šie variantai yra priimtini ir veikiantis, rinktis Tau.`,
+                        Nepaisant to, kurį svetainės variantą pasirinksi, ji vis tiek veiks ir bus funkcionali, tad rinktis tau.`,
                         open: false
                     },
                     {

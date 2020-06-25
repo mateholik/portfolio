@@ -54,6 +54,15 @@
 
             <h2 class="portfolio__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Reprezentacinės svetainės</h2>
             <div class="portfolio__inner">
+                <a href="https://www.csdownload.lt/" target="_blank"  class="item item-csdownload">
+                    <div class="item__mask"></div>
+                    <div class="item__price">
+                        Kaina: 420eu
+                    </div>
+                    <div class="item__name">
+                        csdownload.lt
+                    </div>
+                </a>
                 <a href="https://emortakiuvalymas.lt/" target="_blank"  class="item item-ortakiai">
                     <div class="item__mask"></div>
                     <div class="item__price">
@@ -112,15 +121,15 @@
 
             <h2 class="portfolio__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Vieno puslapio svetainės</h2>
             <div class="portfolio__inner">
-                <!--                <a href="https://londonthamescleaning.co.uk" target="_blank"  class="item item-london">-->
-                <!--                    <div class="item__mask"></div>-->
-                <!--                    <div class="item__price">-->
-                <!--                        Kaina: 280eu-->
-                <!--                    </div>-->
-                <!--                    <div class="item__name">-->
-                <!--                        londonthamescleaning.co.uk-->
-                <!--                    </div>-->
-                <!--                </a>-->
+                <a href="https://evatto.eu/" target="_blank"  class="item item-evatto">
+                    <div class="item__mask"></div>
+                    <div class="item__price">
+                        Kaina: 430eu
+                    </div>
+                    <div class="item__name">
+                        evatto.eu
+                    </div>
+                </a>
                 <a href="http://www.lanersa.lt" target="_blank"  class="item item-lanersa">
                     <div class="item__mask"></div>
                     <div class="item__price">

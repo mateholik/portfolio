@@ -8,7 +8,7 @@
         <transition name="router-animation">
            <router-view></router-view>
         </transition>
-        <go-top :size="40" bg-color="rgba(145, 13, 13, 0.8)" :bottom="50" :max-width="320"></go-top>
+        <go-top :size="40" bg-color="rgba(215, 117, 19, 0.9)" :bottom="50" :max-width="320"></go-top>
         <Footer
                 where="bottom"
         ></Footer>

@@ -4,22 +4,27 @@ $header-color : #4a4f54;
 $sub-header-color : #4a4f54;
 $text-color: #4a4f54;
 $icon-color : #4a4f54;
-$link-color : rgba(145,13,13,.8);
+$link-color : #d77513;
 $header-size : 3.6rem;
 $sub-header-size : 2rem;
 $header-weight : 400;
 //aside
-$aside-bg-color: rgba(145,13,13,.8);
+$aside-bg-color: rgba(13, 79, 145, 0.8);
 $aside-text-color: #fff;
 
 //portfolio
+
 $box-shadow: #e4dfdf;
 $box-hover: #e4dfdf75;
 
+$box-bg-hover:  rgba(13, 79, 145, 0.3);
+$box-price-hover: #d77513;
+$box-name-hover: #914f0d;
+
 //calc
-$active-color: rgb(13,79,145, 0.7);
+$active-color: #d77513;
 $border-color: #e4dfdf;
-$question-color: rgba(145,13,13,.7);
+$question-color: rgba(13, 79, 145, 0.8);
 
 //mixins
 @mixin mQ ($args) {
@@ -97,7 +102,7 @@ h2 {
     position: absolute;
     top: 0.5rem;
     left: 0;
-    width: 2rem;
+    width: 1.5rem;
     height: auto;
     margin-right: 1rem;
   }
@@ -124,7 +129,7 @@ h2 {
     content: " ";
     display: block;
     width: 25%;
-    background: url(./../../assets/img/me.jpg) top center no-repeat $bg-color;
+    background: url(./../../assets/img/bg1.jpg) top center no-repeat $bg-color;
     background-size: cover;
   }
   @include mQ(768px) {
@@ -135,4 +140,8 @@ h2 {
       height: 32.8rem;
     }
   }
+}
+
+strong {
+  font-weight: 500;
 }
