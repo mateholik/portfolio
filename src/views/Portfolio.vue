@@ -54,6 +54,15 @@
 
             <h2 class="portfolio__subtitle"><img :src="require('./../assets/img/icons/check.svg')" />Reprezentacinės svetainės</h2>
             <div class="portfolio__inner">
+                <a href="https://www.palanga777.lt/" target="_blank"  class="item item-palanga">
+                    <div class="item__mask"></div>
+                    <div class="item__price">
+                        Kaina: 440eu
+                    </div>
+                    <div class="item__name">
+                        palanga777.lt
+                    </div>
+                </a>
                 <a href="https://www.csdownload.lt/" target="_blank"  class="item item-csdownload">
                     <div class="item__mask"></div>
                     <div class="item__price">
