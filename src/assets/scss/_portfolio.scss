@@ -1,8 +1,7 @@
-
 .portfolio {
   &__inner {
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 2rem;
     @include mQ(768px) {
       display: block;
@@ -10,7 +9,7 @@
     }
   }
   .item {
-    background-image: url('./../img/bv.jpg');
+    background-image: url("./../img/bv.jpg");
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 3px #ab9595d9;
@@ -22,49 +21,64 @@
     margin-right: 2rem;
     margin-bottom: 2rem;
     &-ortakiai {
-      background-image: url('./../img/ortakiai.jpg');
+      background-image: url("./../img/ortakiai.jpg");
     }
     &-palanga {
-      background-image: url('./../img/palanga.jpg');
+      background-image: url("./../img/palanga.jpg");
     }
     &-mate {
-      background-image: url('./../img/mate.jpg');
+      background-image: url("./../img/mate.jpg");
     }
     &-lubos {
-      background-image: url('./../img/lubos.jpg');
+      background-image: url("./../img/lubos.jpg");
     }
     &-betonavimas {
-      background-image: url('./../img/betonavimas.jpg');
+      background-image: url("./../img/betonavimas.jpg");
     }
     &-slenis {
-      background-image: url('./../img/slenis.jpg');
+      background-image: url("./../img/slenis.jpg");
     }
     &-terapija {
-      background-image: url('./../img/terapija.jpg');
+      background-image: url("./../img/terapija.jpg");
     }
     &-ekodalys {
-      background-image: url('./../img/ekodalys.jpg');
+      background-image: url("./../img/ekodalys.jpg");
     }
     &-london {
-      background-image: url('./../img/london.jpg');
+      background-image: url("./../img/london.jpg");
     }
     &-lanersa {
-      background-image: url('./../img/lanersa.jpg');
+      background-image: url("./../img/lanersa.jpg");
     }
     &-ganja {
-      background-image: url('./../img/eco.jpg');
+      background-image: url("./../img/eco.jpg");
     }
     &-papuosk {
-      background-image: url('./../img/papuosk.jpg');
+      background-image: url("./../img/papuosk.jpg");
     }
     &-beauty {
-      background-image: url('./../img/beauty.jpg');
+      background-image: url("./../img/beauty.jpg");
     }
     &-evatto {
-      background-image: url('./../img/evatto.jpg');
+      background-image: url("./../img/evatto.jpg");
     }
     &-csdownload {
-      background-image: url('./../img/csdownload.jpg');
+      background-image: url("./../img/csdownload.jpg");
+    }
+    &-psichologe {
+      background-image: url("./../img/psichologe.jpg");
+    }
+    &-bigmix {
+      background-image: url("./../img/bigmix.jpg");
+    }
+    &-mars {
+      background-image: url("./../img/mars.jpg");
+    }
+    &-mines {
+      background-image: url("./../img/minesweeper.jpg");
+    }
+    &-longavia {
+      background-image: url("./../img/longavia.jpg");
     }
     @include mQ(768px) {
       max-width: 38rem;
@@ -76,9 +90,9 @@
       box-shadow: 0 0 3px #1e4944c4;
     }
     &:hover {
-     .item__mask {
-       opacity: 1;
-     }
+      .item__mask {
+        opacity: 1;
+      }
       .item__price {
         left: 0;
         background: $box-price-hover;
