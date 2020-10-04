@@ -19,6 +19,9 @@
   @include mQ(768px) {
     display: none;
   }
+  @media (max-height: 650px) {
+    display: none;
+  }
   &-bottom {
     display: none;
     @include mQ(768px) {
