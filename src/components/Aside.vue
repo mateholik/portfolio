@@ -1,6 +1,7 @@
 <template>
     <aside>
         <div class="aside">
+            <Snow></Snow>
             <div class="aside__inner">
                 <a href="./" class="me">
                     <div class="me__img">
@@ -64,9 +65,7 @@
                                 <router-link to="/kaina" tag="li" class="nav__li" exact @click.native="mobileNav = false">Kaina</router-link>
                             </ul>
                         </transition>
-                     </div>
-
-
+                </div>
                 <div class="socials">
                     <ul class="socials__ul">
                         <li class="socials__li">
@@ -104,10 +103,12 @@
 <script>
     import img from './../assets/img/me3.jpg'
     import Footer from './Footer'
+    import Snow from "./Snow";
     export default {
         name: 'Aside',
         components: {
-          Footer
+          Footer,
+          Snow
         },
         data() {
             return {
