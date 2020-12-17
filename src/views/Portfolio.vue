@@ -14,10 +14,15 @@
           <div class="item__price">Kaina: 650eu</div>
           <div class="item__name">matesklubas.lt</div>
         </a>
-        <a href="https://ecochoice.lt" target="_blank" class="item item-ganja">
+        <!-- <a href="https://ecochoice.lt" target="_blank" class="item item-ganja">
           <div class="item__mask"></div>
           <div class="item__price">Kaina: 450eu</div>
           <div class="item__name">ecochoice.lt</div>
+        </a>-->
+        <a href="https://atomaizeriai.lt/" target="_blank" class="item item-atomaizeriai">
+          <div class="item__mask"></div>
+          <div class="item__price">Kaina: 500eu</div>
+          <div class="item__name">atomaizeriai.lt</div>
         </a>
         <a href="https://www.papuosk.lt" target="_blank" class="item item-papuosk">
           <div class="item__mask"></div>
@@ -59,6 +64,11 @@
           <div class="item__mask"></div>
           <div class="item__price">Kaina: 600eu</div>
           <div class="item__name">emortakiuvalymas.lt</div>
+        </a>
+        <a href="https://www.nomadomas.lt/" target="_blank" class="item item-nomadomas">
+          <div class="item__mask"></div>
+          <div class="item__price">Kaina: 620</div>
+          <div class="item__name">nomadomas.lt</div>
         </a>
         <a href="https://www.babilonovartai.lt" target="_blank" class="item">
           <div class="item__mask"></div>

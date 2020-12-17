@@ -80,6 +80,33 @@
     &-longavia {
       background-image: url("./../img/longavia.jpg");
     }
+    &-movies {
+      background-image: url("./../img/movies.jpg");
+    }
+    &-shortener {
+      background-image: url("./../img/shortener.jpg");
+    }
+    &-snake {
+      background-image: url("./../img/snake.jpg");
+    }
+    &-todos {
+      background-image: url("./../img/todos.jpg");
+    }
+    &-calendar {
+      background-image: url("./../img/calendar.jpg");
+    }
+    &-budget {
+      background-image: url("./../img/budget.jpg");
+    }
+    &-theory {
+      background-image: url("./../img/theory.jpg");
+    }
+    &-atomaizeriai {
+      background-image: url("./../img/atomaizeriai.jpg");
+    }
+    &-nomadomas {
+      background-image: url("./../img/nomadomas.jpg");
+    }
     @include mQ(768px) {
       max-width: 38rem;
       width: 100%;
