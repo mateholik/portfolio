@@ -107,6 +107,9 @@
     &-nomadomas {
       background-image: url("./../img/nomadomas.jpg");
     }
+    &-breaking-bad {
+      background-image: url("./../img/breaking-bad.jpg");
+    }
     @include mQ(768px) {
       max-width: 38rem;
       width: 100%;
