@@ -110,6 +110,9 @@
     &-breaking-bad {
       background-image: url("./../img/breaking-bad.jpg");
     }
+    &-jobs {
+      background-image: url("./../img/jobs.jpg");
+    }
     @include mQ(768px) {
       max-width: 38rem;
       width: 100%;

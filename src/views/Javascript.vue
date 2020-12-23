@@ -24,6 +24,11 @@
           <div class="item__price">Express, MongoDB</div>
           <div class="item__name">Node.js</div>
         </a>
+        <a href="https://jobs.vladis.lt/" target="_blank" class="item item-jobs">
+          <div class="item__mask"></div>
+          <div class="item__price">React</div>
+          <div class="item__name">GitHub Jobs API</div>
+        </a>
         <a href="https://todos.vladis.lt/" target="_blank" class="item item-todos">
           <div class="item__mask"></div>
           <div class="item__price">Vue, Vuex</div>
