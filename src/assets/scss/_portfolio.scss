@@ -113,6 +113,9 @@
     &-jobs {
       background-image: url("./../img/jobs.jpg");
     }
+    &-users {
+      background-image: url("./../img/users.jpg");
+    }
     @include mQ(768px) {
       max-width: 38rem;
       width: 100%;

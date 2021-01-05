@@ -9,6 +9,11 @@
         <img :src="require('./../assets/img/icons/check.svg')" />Projects for portfolio
       </h2>
       <div class="portfolio__inner">
+        <a href="https://users.vladis.lt/" target="_blank" class="item item-users">
+          <div class="item__mask"></div>
+          <div class="item__price">Vue, Vuex</div>
+          <div class="item__name">JSON Placeholder and Pexels API's</div>
+        </a>
         <a href="https://bb.vladis.lt/" target="_blank" class="item item-breaking-bad">
           <div class="item__mask"></div>
           <div class="item__price">React</div>

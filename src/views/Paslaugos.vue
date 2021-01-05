@@ -30,7 +30,7 @@
         <img :src="require('./../assets/img/icons/check.svg')" />Landeriai, formos, validacijos, checkoutai.
       </h2>
       <h2 class="paslaugos__subtitle">
-        <img :src="require('./../assets/img/icons/check.svg')" />Dirbu su HTML, CSS, SASS/BEM, Bootstrap, Tailwind, JS, jQuery, VUE, NUXT, Node.js, Express, PHP, Twig, GULP, Webpack, GIT, Docker.
+        <img :src="require('./../assets/img/icons/check.svg')" />Dirbu su HTML5, CSS3, SASS/BEM, Bootstrap, Tailwind, JS, jQuery, VUE, Vuex, Nuxt, Node.js, Express, React, GULP, Webpack, GIT, Docker.
       </h2>
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Konsultuoju pradedančiuosius front-end programuotojus html, css ir js klausimais.
