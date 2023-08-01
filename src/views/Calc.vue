@@ -86,19 +86,19 @@ export default {
           answers: [
             {
               name: "Vieno puslapio",
-              price: 190,
+              price: 240,
               hint:
                 "Vieno puslapio svetainė – skirta trumpam jūsų įmonės pristatymui bei papildomai informacijai apie paslaugas arba produktus viename puslapyje.",
             },
             {
               name: "Reprezentacinė",
-              price: 280,
+              price: 330,
               hint:
                 "Reprezentacinė svetainė – skirta jūsų verslo pristatymui. Dažniausiai sudaroma iš 5 puslapių.",
             },
             {
               name: "E. parduotuvė",
-              price: 280,
+              price: 330,
               hint:
                 "Elektroninė parduotuvė – talpina tiek informaciją apie jūsų veiklą, tiek suteikia galimybę klientams greitai ir patogiai pirkti internetu. Klientams yra sudaroma galimybė iš karto atsiskaityti už paslaugas naudojantis el. bankininkyste arba mokėjimo kortele (plačiau skaitykite D.U.K.).",
             },
@@ -115,13 +115,13 @@ export default {
             },
             {
               name: "Paprastas",
-              price: 30,
+              price: 80,
               hint:
                 "Paprastas – tai neunikalus logotipas, sukurtas logotipų generavimo priemonėmis pagal jūsų veiklos raktažodžius.",
             },
             {
               name: "Unikalus",
-              price: 100,
+              price: 150,
               hint:
                 "Unikalus – užsisakius šią paslaugą, jums logotipą sukurs dizaineris.",
             },
@@ -132,19 +132,19 @@ export default {
           answers: [
             {
               name: "Nereikia",
-              price: 20,
+              price: 70,
               hint:
                 "Nereikia – toks puslapis nebus labai interaktyvus, tekstas ir paveikslėliai bus išdėlioti standartiškai, bus tik keli grafiniai elementai.",
             },
             {
               name: "Paprastas",
-              price: 100,
+              price: 150,
               hint:
                 "Paprastas – turinys pateikiamas vizualiau, siūlomas įdomesnis turinio išdėstymas, daugiau grafinių galimybių.",
             },
             {
               name: "Unikalus",
-              price: 200,
+              price: 250,
               hint:
                 "Unikalus – tokio puslapio dizainą jums paruoš dizaineris. Jis bus individualus, išskirtinis. Grafiniai elementai pritaikyti prie jūsų kuriamo turinio bei poreikių.",
             },
@@ -161,13 +161,13 @@ export default {
             },
             {
               name: "Wordpress",
-              price: 120,
+              price: 170,
               hint:
                 "Wordpress – turbūt viena populiariausių ir lengviausiai valdomų turinio sistemų. Ja patogu naudotis ir ji nereikalauja itin specifinių žinių.",
             },
             {
               name: "Kita platforma",
-              price: 150,
+              price: 200,
               hint:
                 "Kita platforma – rinkitės šį variantą, jeigu esate pripratę prie savo turimos platformos arba norite naudotis bet kokia kita platforma.",
             },

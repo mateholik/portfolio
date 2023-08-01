@@ -30,7 +30,10 @@
       </h1>
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Unikalių
-        dizainų paruošimas.
+        dizainų paruošimas. Pavyzdžiai:
+        <a target="_blank" href="https://maxdesign.lt/"
+          >https://maxdesign.lt/</a
+        >
       </h2>
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Dizainų
