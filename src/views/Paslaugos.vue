@@ -2,7 +2,7 @@
   <section>
     <div class="paslaugos">
       <h1 class="paslaugos__title">
-        <img :src="require('./../assets/img/icons/www.svg')" />Mano svetainės
+        <img :src="require('./../assets/img/icons/www.svg')" />Svetainės
       </h1>
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Reaktyvios
@@ -11,7 +11,7 @@
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Pritaikytos
         dažniausiai naudojamoms naršyklėms – Chrome, Firefox, Safari, Edge,
-        Opera, IE.
+        Opera.
       </h2>
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Greitos –
@@ -24,17 +24,51 @@
         produktus.
       </h2>
       <br />
+
+      <h1 class="paslaugos__title">
+        <img :src="require('./../assets/img/icons/design.svg')" />Dizainas
+      </h1>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Unikalių
+        dizainų paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Reprezentacinių
+        svetainių dizaino paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />El. parduotuvių
+        dizaino paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Appsų dizaino
+        paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Facebook
+        reklaminių banerių, facebook cover photo paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Pardaviminių ar
+        informacinių banerių paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Vizitinių
+        kortelių paruošimas.
+      </h2>
+      <h2 class="paslaugos__subtitle">
+        <img :src="require('./../assets/img/icons/check.svg')" />Dizaino darbų
+        pavyzdžius galima pamatyti
+        <a target="_blank" href="https://maxdesign.lt/">https://maxdesign.lt/</a
+        >.
+      </h2>
+      <br />
+
       <h1 class="paslaugos__title">
         <img :src="require('./../assets/img/icons/services.svg')" />Kitos
         paslaugos
       </h1>
-      <h2 class="paslaugos__subtitle">
-        <img :src="require('./../assets/img/icons/check.svg')" />Unikalių
-        dizainų paruošimas. Pavyzdžiai:
-        <a target="_blank" href="https://maxdesign.lt/"
-          >https://maxdesign.lt/</a
-        >
-      </h2>
+
       <h2 class="paslaugos__subtitle">
         <img :src="require('./../assets/img/icons/check.svg')" />Dizainų
         karpymas – PSD, sketch, Figma -> HTML, Pixel perfect.
